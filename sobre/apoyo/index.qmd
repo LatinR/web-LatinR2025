@@ -5,6 +5,7 @@ knitr:
     echo: false
     message: false
     warning: false
+    eval: false
 ---
 
 Si tienes interés en patrocinar el evento, por favor envía un mensaje a [latinr.conf\@gmail.com](mailto:latinr.conf@gmail.com).
