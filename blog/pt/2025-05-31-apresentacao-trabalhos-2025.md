@@ -1,8 +1,8 @@
 ---
 title:  "Chamada de apresentação de trabalhos"
 date: 2025-05-31
-ref: call-for-papers-2024
-categories: "2024"
+ref: call-for-papers-2025
+categories: "2025"
 ---
 
 <h3><center>Chamada de apresentação de trabalhos aberta!</center></h3>

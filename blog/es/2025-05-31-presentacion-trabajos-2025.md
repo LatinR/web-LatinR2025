@@ -1,8 +1,8 @@
 ---
 title:  "Llamado a Presentación de Trabajos"
-categories: "2024"
+categories: "2025"
 date: 2025-05-31
-ref: call-for-papers-2024
+ref: call-for-papers-2025
 ---
 
 <h3><center>LLAMADO A PRESENTACIÓN DE TRABAJOS</center></h3>
@@ -55,7 +55,7 @@ Los idiomas oficiales de la conferencia son español, portugués e inglés. **El
 <br>
 
 <div class="boxBorder">
-El envío de trabajos se podrá realizar a partir del mes de octubre a través de la plataforma [OpenReview](https://openreview.net/). Ten en cuenta que es necesario haberse registrado en la plataforma para poder enviar tu trabajo. El proceso de crear una cuenta puede tomar varios días si es que utilizas un correo personal y no institucional. **Te sugerimos no dejar la creación de la cuenta para el último minuto**.
+El envío de trabajos se podrá realizar a partir del mes de julio a través de la plataforma [OpenReview](https://openreview.net/). Ten en cuenta que es necesario haberse registrado en la plataforma para poder enviar tu trabajo. El proceso de crear una cuenta puede tomar varios días si es que utilizas un correo personal y no institucional. **Te sugerimos no dejar la creación de la cuenta para el último minuto**.
 </div>
 
 <br>

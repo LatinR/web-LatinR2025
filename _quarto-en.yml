@@ -24,11 +24,11 @@ website:
       - text: Attend
         menu: 
           - text: "Call for Papers"
-            href: blog/en/2024-07-09-call-for-papers-2024.html
-          - text: "About Registration"
-            href: blog/en/2024-08-01-register.html
-          - text: "Registration"
-            href: https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl
+            href: blog/en/2025-05-31-call-for-papers-2025.html
+          #- text: "About Registration"
+          #  href: blog/en/2024-08-01-register.html
+          #- text: "Registration"
+          #  href: https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl
 
       # - text: LatinR 2024
       #   menu: 
@@ -38,20 +38,20 @@ website:
       #       href: cronograma/recursos-turisticos/index-en.qmd
       #     - text: "Scholarships"
       #       href: blog/en/2023-08-18-scholarships-2023.html        
-      - text: Program
-        menu:
+     # - text: Program
+      #  menu:
           # - text: "Summarised program"
           #   href: cronograma/programa/preliminar.qmd 
-          - text: "Program with Talks and Keynotes"
-            href: cronograma/programa/index.qmd
-          - text: "Keynote Speakers"
-            href: cronograma/conferencistas/keynotes.qmd
-          - text: "Workshops"
-            href: cronograma/tutoriales/workshops.qmd
-          - text: "R Dev Day"
-            href: cronograma/r-dev-day/rdevday-en.qmd
-          - text: "Traslaton rOpenSci"
-            href: cronograma/translaton/translaton-en.qmd            
+         # - text: "Program with Talks and Keynotes"
+         #   href: cronograma/programa/index.qmd
+         # - text: "Keynote Speakers"
+         #   href: cronograma/conferencistas/keynotes.qmd
+         # - text: "Workshops"
+         #   href: cronograma/tutoriales/workshops.qmd
+         # - text: "R Dev Day"
+         #   href: cronograma/r-dev-day/rdevday-en.qmd
+         # - text: "Traslaton rOpenSci"
+         #   href: cronograma/translaton/translaton-en.qmd            
           # - text: "Regular Talks"
           #   href: cronograma/programa/presentaciones.qmd 
           # - text: "Posters"
@@ -60,6 +60,8 @@ website:
         href: blog/en/index.html                 
       - text: "Past events"
         menu:
+        - text: "2024"
+          href: https://2024.latinr.org/
         - text: "2023"
           href: https://2023.latinr.org/
         - text: "2022"
