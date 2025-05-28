@@ -48,6 +48,7 @@ jobs:
             any::toastui
             any::reactable
 
+# Descomentar cuando tengamos la info del equipo y comité
   #    - name: Execute Script
  #       run: |
  #        Rscript "data-raw/actions-update-from-google-sheets.R"      
