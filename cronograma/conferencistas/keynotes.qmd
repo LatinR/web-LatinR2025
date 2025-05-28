@@ -1,0 +1,51 @@
+---
+title: "Keynote Speakers"
+knitr:
+  opts_chunk: 
+    echo: false
+    message: false
+    warning: false
+---
+
+
+```{css echo=FALSE}
+.card-header-keynote{
+  background-color: #FDC08666;
+  font-weight: bold;
+}
+
+.cards-display{
+  display: grid;
+}
+
+.html-fill-container > .html-fill-item {
+  flex: inherit;
+}
+```
+
+In this seventh edition, we will have the presence of prominent speakers in the field of programming with R, with experience in both academia and industry, committed to collaboration and the promotion of open science, data, and software. 
+
+## Speakers
+
+```{r}
+#| results: asis
+source(here::here("R/generar-info-keynotes.R"))
+info_keynotes <- generar_info_keynotes()
+
+generar_cards_keynotes(info_keynotes = info_keynotes, col_information = "info_en")
+
+```
+
+## Talks
+
+### Julia Silge: What is “production” anyway? MLOps for the curious
+
+While data scientists are often taught about training a machine learning model, building an MLOps strategy to deploy and maintain that model can be daunting. You may have even heard that R is not appropriate for production use. In this talk, learn what the practice of machine learning operations (MLOps) is, what principles can be used to create a practical MLOps strategy, what people mean when they say "production", and what kinds of tasks and components are involved. See how to get started with vetiver, a framework for MLOps tasks in R (and Python) that provides fluent tooling to version, deploy, and monitor your models. This talk will help practitioners who are already deploying models, but this is also useful knowledge for data science practitioners earlier in their MLOps journey; decisions made along the way can make the difference between resilient models that are easier to maintain and disappointing or misleading models.
+
+
+<!-- font awesome -->
+
+```{=html}
+<script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
+```
+<!-- font awesome -->

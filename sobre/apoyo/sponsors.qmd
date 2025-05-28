@@ -1,0 +1,24 @@
+---
+title: "Sponsors"
+knitr:
+  opts_chunk: 
+    echo: false
+    message: false
+    warning: false
+---
+
+If you want to be a Sponsor, please send an email to [latinr.conf\@gmail.com](mailto:latinr.conf@gmail.com).
+
+
+::: {.content-visible when-profile="en"}
+```{r, results='asis'}
+source(here::here("R/generar-info-sponsors.R"))
+info_sponsors <- generar_info_sponsors()
+sponsors_html <- generar_lista_sponsors(info_sponsors, lang = "en")
+cat(sponsors_html)
+```
+:::
+
+
+
+

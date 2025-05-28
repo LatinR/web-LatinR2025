@@ -1,0 +1,24 @@
+---
+title: "Apoyo"
+knitr:
+  opts_chunk: 
+    echo: false
+    message: false
+    warning: false
+---
+
+Si tienes interés en patrocinar el evento, por favor envía un mensaje a [latinr.conf\@gmail.com](mailto:latinr.conf@gmail.com).
+
+
+::: {.content-visible when-profile="es"}
+```{r, results='asis'}
+source(here::here("R/generar-info-sponsors.R"))
+info_sponsors <- generar_info_sponsors()
+sponsors_html <- generar_lista_sponsors(info_sponsors, lang = "es")
+cat(sponsors_html)
+```
+:::
+
+
+
+

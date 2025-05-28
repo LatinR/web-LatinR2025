@@ -1,0 +1,46 @@
+project:
+  type: website
+  preview: 
+    port: 4200  
+
+website:
+  title: "LatinR 2024"
+  sidebar: false
+  navbar:
+    pinned: false
+    logo: "img/logo.png"
+    logo-alt: "LatinR logo"
+    title: false
+    background: "#ffffff"
+    foreground: "#737373"
+    search: true
+  page-footer: 
+#    left: "Proudly supported by R Consortium"
+    center: "Copyright © 2023-2024, LatinR Team" 
+    right: 
+      - icon: envelope
+        aria-label: "Email"
+        href: mailto:info@latinr.org 
+      - icon: github
+        href: https://github.com/latinr
+      - icon: twitter 
+        href: https://twitter.com/LatinR_Conf     
+        aria-label: "Twitter"
+      - icon: linkedin
+        href: https://www.linkedin.com/company/latinrconf/
+        aria-label: "Linkedin"
+      - icon: slack
+        href: https://join.slack.com/t/latin-r/shared_invite/zt-2tespojdh-OpXaVcnzOY_SETtv9hqRSQ
+        aria-label: "Slack"
+
+      
+profile:
+  default: es
+  group: 
+    - [en, es, pt]
+
+format:
+  html:
+    theme: styles.scss
+    toc: false
+    page-layout: full

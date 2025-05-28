@@ -1,0 +1,286 @@
+---
+title: "Workshops"
+knitr:
+  opts_chunk:
+    echo: false
+    message: false
+    warning: false
+---
+
+## Introdução ao GitHub para investigadores
+
+#### Aprenda a utilizar o GitHub nas suas actividades como investigador com dois investigadores GitHub Star!
+
+### Sobre o curso
+
+**Data** 18 de novembro de 2024, das 14:00 às 17:00 (GMT-3)
+
+**Modalidade**: Online
+
+**Inscrição**: [https://www.eventbrite.com.ar/e/1045617188157](https://www.eventbrite.com.ar/e/1045617188157)
+
+**Idioma:** Espanhol
+
+
+Este workshop foi concebido para apresentar aos investigadores o GitHub, uma plataforma poderosa para controlo de versões e colaboração. Os participantes aprenderão os conceitos básicos do uso do GitHub para gerenciar seus projetos de pesquisa, incluindo como criar e gerenciar repositórios, rastrear alterações e colaborar com outras pessoas.
+Os Objetivos específicos de aprendizagem incluem:
+  - Compreender os conceitos básicos de controlo de versões e como se aplicam aos fluxos de trabalho de investigação.
+  - Ganhar experiência prática na criação e gestão de repositórios GitHub.
+  - Explorar a utilização do GitHub Issues e Projects para gerir tarefas de investigação e comunicação dentro das equipas de investigação.
+  - Reconhecer os diferentes componentes de um repositório (readme, licença, código de conduta, citações, entre outros).
+
+Para além disso, o workshop irá enfatizar a relevância do GitHub na promoção da ciência aberta, destacando o seu papel enquanto repositório de código e dados que suporta a transparência e reprodutibilidade na investigação.
+No final do workshop, os participantes serão capazes de integrar o GitHub nos seus fluxos de trabalho de investigação, melhorando tanto a colaboração como a disseminação aberta do conhecimento científico.
+
+Este tutorial destina-se a investigadores de todas as disciplinas interessados em melhorar as suas competências de gestão de projectos e de colaboração utilizando o GitHub. É ideal para quem trabalha em equipas ou grupos de investigação, com alguma familiaridade com fluxos de trabalho de investigação, mas não é necessária experiência prévia com o GitHub.
+
+### Requisitos
+Os participantes devem ter um computador/laptop com acesso à Internet e armazenamento suficiente para instalar o Git. Devem ter o [Git instalado](https://git-scm.com/) e uma conta [GitHub](https://github.com/) criada antes do workshop.
+
+### Tutores
+
+**Beatriz Milz** - Beatriz é uma GitHub Star, e atualmente é pesquisadora de pós-doutorado na Universidade Federal do ABC (UFABC), no Brasil. Ela é doutora em Ciências Ambientais pela Universidade de São Paulo (USP). É co-organizadora do R-Ladies São Paulo e editora de revisão de software na rOpenSci”.
+
+**Yanina Bellini Saibene** - Yani é uma GitHub Star desde 2022. Ela é Community Manager na rOpenSci, Líder do Projeto R-Ladies e Vice Presidente do Conselho da The Carpentries. Ela mora na Argentina e leciona na Universidad Austral (Argentina). É organizadora do R-Ladies Santa Rosa e co-fundadora e copresidente do LatinR. Yani é também formadora e instrutora certificada para Posit e The Carpentries.
+
+
+
+## Tutorial Análise de dados de satélite em R
+
+#### Aprenda a realizar análise de dados de satélite com R combinado com técnicas de Machine Learninig.
+
+### Sobre o curso
+
+**Data** 18 de novembro de 2024, das 18:00 às 20:00 (GMT-3)
+
+**Modalidade**: Online
+
+**Inscrição**: [https://www.eventbrite.com.ar/e/1045614801017](https://www.eventbrite.com.ar/e/1045614801**017)
+
+**Idioma:** Espanhol
+
+A análise de dados de satélite em R, combinada com técnicas de Machine Learning, abre novas oportunidades para interpretar e explorar informações geoespaciais.
+Este tutorial abordará aplicações práticas utilizando R para processar e analisar imagens de satélite. Demonstrará como tirar partido de bibliotecas especializadas em R, tais como raster, sf e caret, para manipular dados espaciais e construir modelos preditivos. A utilização da aprendizagem automática permitirá a identificação de padrões em grandes conjuntos de dados de satélite, aplicando algoritmos como árvores de decisão, SVM e Random Forest.
+Serão destacados exemplos do mundo real em domínios como a agricultura de precisão, a monitorização ambiental e a deteção de alterações na superfície terrestre. A apresentação irá enfatizar a importância da integração de dados de satélite na tomada de decisões e como estas técnicas permitem uma análise mais eficiente e precisa do nosso ambiente a partir do espaço.
+
+
+### Tutor
+
+Gladis Choque Ulloa **Gladis Choque Ulloa**
+
+Sou mestre em estatística pela Universidade Federal do Rio Grande do Sul, Brasil, e tenho mais de 5 anos de experiência no mundo dos dados e da pesquisa. Atualmente sou bolseiro no Doutoramento em Estatística com foco em Ciência de Dados na Universidade de São Paulo, Brasil.
+
+Sou especialista em séries temporais e modelos de classificação em Machine Learning. Além disso, escrevi artigos sobre modelos preditivos e classificação, e tive a honra de vencer a Competição Internacional do Massachusetts Institute of Technology (MIT) em 2020, fui indicada para o Women That Build Awards como Outstanding Woman in Data pela Globant em 2022, fui Expomentor no NASA Space Apps Challangue Peru em 2023, vencedora do Clubes de Ciências Brasil 2020 e vencedora como melhor trabalho de pesquisa do programa “Clean Water Science Network” na Universidade do Texas, EUA. Fundadora da comunidade de dados Women in Datalab, Top Voice Data Science no LinkedIn e influenciadora de dados com o nome “Datos con Gladys” e “Gladys Data Club”.
+
+
+## Tutorial: Trabalhando com dados maiores que a memória em R com Arrow e DuckDB
+
+#### Aprenda a analisar grandes conjuntos de dados com Arrow, DuckDB e Duckplyr em R. Acelere os fluxos de trabalho em seu laptop usando a manipulação de dados no estilo tidyverse
+
+### Sobre o curso
+
+**Data** 19 de Noviembre de 2024, 10:00 AM - 12:00 AM (GMT-3)
+
+**Modalidade**: Online
+
+**Inscrição**: [https://www.eventbrite.com.ar/e/1044938257457](https://www.eventbrite.com.ar/e/1044938257457)
+
+**Idiomas**: inglês
+
+Enquanto os conjuntos de dados estão a aumentar, os recentes avanços em tecnologias como o Apache Arrow e o DuckDB estão a tornar acessível a qualquer pessoa a análise de conjuntos de dados que costumavam exigir infra-estruturas complexas.
+
+Usar os pacotes {arrow}, {duckdb} e {duckplyr} abre a porta para analisar gigabytes de dados em segundos usando a mesma interface do {tidyverse}. Aprendendo apenas alguns conceitos, os utilizadores do R podem trabalhar facilmente com conjuntos de dados maiores do que a memória diretamente a partir do seu computador.
+Neste tutorial, serão analisados dados reais para explorar os formatos usados para armazenar esses grandes conjuntos de dados em discos, como o Arrow e o DuckDB podem ser aproveitados para analisar dados e como essas ferramentas se integram à interface {tidyverse}.
+
+Depois de assistir a este tutorial, os alunos irão:
+  - Entender quando o uso do Arrow ou do DuckDB pode ajudar a acelerar uma análise de dados
+  - Descrever como o Arrow e o DuckDB podem trabalhar com conjuntos de dados que são maiores do que a memória
+  - Reconhecer o tipo de manipulação de dados que mais se beneficia do uso de ferramentas como o Arrow e o DuckDB
+  - Decidir qual pacote ({arrow}, {duckdb} ou {duckplyr}) é mais adequado para sua análise de dados
+  - Desenvolver sua própria análise de dados usando o Arrow ou o DuckDB
+
+Este tutorial destina-se a todos os que precisam de analisar conjuntos de dados maiores do que a memória que têm disponível no seu computador quotidiano ou que estão interessados em aprender a acelerar a análise de grandes conjuntos de dados.
+Os participantes que não têm acesso a HPC beneficiarão particularmente deste tutorial, uma vez que as ferramentas utilizadas podem ser facilmente instaladas num computador portátil normal e proporcionam um bom desempenho.
+
+### Requisitos
+Os participantes já devem estar familiarizados com a manipulação de dados com o {tidyverse} y saber como usar os 5 verbos mais comuns do {dplyr} para análise de dados: mutate(), select(), filter(), summarize(), arrange() combinado com group_by().
+
+**Software**: R >= 4.1.0
+**Pacotes**: arrow, duckdb, duckplyr, tidyverse, tictoc.
+
+### Tutor
+**François Michonneau** é um educador que adora trabalhar com dados e colocar o R em produção. Ele usa o R há mais de 20 anos e mantém vários pacotes no CRAN. Depois de fazer parte da liderança da The Carpentries durante 5 anos, trabalhou na Voltron Data durante alguns anos. Atualmente, está à procura da sua próxima função.
+
+## Tutorial Leve os seus gráficos com ggplot2 para o próximo nível
+
+#### Aprenda a criar visualizações claras, informativas e cativantes para a sua análise de dados.
+
+### Sobre o curso
+
+**Data** 19 de novembro de 2024, das 14:00 às 16:30 (GMT-3)
+
+**Modalidade**: Online
+
+**Inscrição**: [https://www.eventbrite.com.ar/e/1045608201277](https://www.eventbrite.com.ar/e/1045608201277)
+
+**Idioma**: Espanhol
+
+Criar visualizações claras, informativas e envolventes é uma tarefa indiscutível dentro da análise de dados, tanto no meio académico como na indústria. No entanto, a grande maioria dos tutoriais ou cursos iniciais de R tendem a explicar apenas como funciona a gramática gráfica do ggplot2, sem cobrir o potencial dos parâmetros estéticos que ajudam a comunicar não verbalmente o objetivo do gráfico. Neste workshop vamos mostrar como editar texto e cores, tanto especificamente como usando paletas, e como adaptar o gráfico a critérios específicos de publicação.
+
+#### Objetivo geral de aprendizagem:
+Os participantes podem adaptar os seus gráficos aos requisitos de publicação de uma revista ou outro formato académico.
+
+### Objetivos específicos de aprendizagem:
+Os participantes podem modificar os elementos textuais dos gráficos.
+Os participantes podem editar o aspeto dos gráficos através da seleção de cores específicas e da utilização de paletas.
+Os participantes podem especificar as dimensões de exportação dos gráficos.
+
+O tutorial destina-se a um público vasto que pretende levar os seus gráficos para o nível seguinte, personalizando etiquetas e texto, cores e detalhes dos gráficos, especialmente para os preparar da melhor forma para apresentações ou publicações. Em particular, este workshop visa ajudar aqueles que sabem como fazer um gráfico básico, mas não conseguem adaptá-lo às suas necessidades específicas ou fazer com que o gráfico mostre exatamente o que pretendem.
+
+### Requisitos
+
+Para seguir as actividades do tutorial sem problemas, é necessário ter alguma experiência, mesmo que apenas inicial, com o R e o RStudio e o pacote ggplot2. Deve ter um computador com o R e o R Studio instalados e actualizados. Também será necessário instalar o pacote tidyverse, que inclui o pacote ggplot2, que será o tema do curso.
+
+### Tutores
+
+**Noelia A. Stetie** é professora e bacharel em Letras pela Universidade de Buenos Aires (UBA) e doutoranda do CONICET. Dedica-se ao estudo do processamento psicolinguístico ao nível da frase. Colabora em projectos de investigação na UBA e trabalhou como professora nessa instituição, na Universidade Nacional de José C. Paz e em institutos de formação de professores. É instrutora certificada em The Carpentries e ministrou vários workshops sobre análise de dados com R. Lecciona cursos centrados na análise de dados e na aplicação de teorias psicolinguísticas à prática docente.
+
+**Macarena S. Quiroga** é mestre em Psicologia Cognitiva e da Aprendizagem pela Faculdade Latino-Americana de Ciências Sociais (FLACSO), licenciada em Letras pela Universidade de Buenos Aires (UBA) e bolseira de doutoramento do CONICET. Dedica-se ao estudo da compreensão e produção de vocabulário em crianças pequenas. É professora na Universidade Nacional de Hurlingham. É formadora e instrutora certificada em The Carpentries e deu vários workshops sobre análise de dados com R.
+
+
+## Tutorial de Nicho Ecológico e de Distribuição Potencial de Espécies com R
+
+#### O tutorial cobrirá a teoria básica da modelagem de nicho ecológico e distribuição potencial de espécies e suas principais metodologias.
+
+### Sobre o curso
+
+**Data** 19 de Noviembre de 2024, 6:00 PM - 9:00 PM (GMT-3)
+
+**Modalidade**: Online
+
+**Inscrição**:  [https://www.eventbrite.com.ar/e/1045601130127](https://www.eventbrite.com.ar/e/1045601130127)
+
+**Idioma**: Português
+
+O tutorial cobrirá a teoria básica da modelagem de nicho ecológico (ENM) e distribuição potencial de espécies (SDM) e suas principais metodologias. Ao final do curso, predominantemente prático, os participantes terão a capacidade de executar os modelos e entender seus resultados, bem como escolher e aplicar a metodologia correta dependendo do objetivo do seu tipo de estudo e dados. O tutorial será principalmente prático, com alguns momentos teóricos. Todos os processos de modelagem, cálculos, gráficos e mapas serão realizados com R. Os participantes aprenderão a usar algoritmo de modelagem Maxent, através do pacote {flexsdm} para desenvolvimento dos modelos e será utilizado o pacote {tmap} para geração de mapas.
+
+### Objetivos:
+  - Apresentar as bases teóricas dos modelos que podem ser utilizados;
+  - Discutir as vantagens e limitações dos modelos no contexto de diferentes aplicações;
+  - Introduzir as formas de conduzir corretamente um estudo de modelagem de nicho ecológico ou distribuição de espécies para diversas finalidades;
+  - Iniciar a utilização de modelagem de distribuição geográfica de espécies utilizando R;
+
+Estudantes, pesquisadores e profissionais em qualquer estágio da carreira com interesse em desenvolver e aplicar modelos de distribuição de espécies e/ou nicho ecológico de forma reprodutível e automatizada. Os participantes devem estar acostumados a trabalhar com computadores, ter uma boa conexão de internet e, de preferência, uma webcam, pois as sessões on-line ao vivo pretendem ser altamente interativas. Experiência básica anterior com R é fortemente desejável, embora não seja estritamente obrigatória. Todos os scripts R serão fornecidos e explicados em detalhes.
+
+### Requisitos
+
+- Última versão do R e RStudio e pacotes que serão enviados por e-mail. Desejável 32MB RAM, mas é possível executar o script com 16MB.
+
+### Tutor
+
+**George Amaro**, é pesquisador da Empresa Brasileira de Pesquisa Agropecuária (Embrapa), na área de economia e modelagem, sendo líder e membro de projetos de modelagem de distribuição de espécies invasoras, revisor de periódicos internacionais sobre o tema, tendo vasta experiência em R e tendo participado como autor e co-autor de vários trabalhos relacionados a SDM/ENM.
+
+## Otimizando Shiny: Dicas e Truques de Desempenho
+
+#### Aprenda como otimizar o desempenho de aplicações desenvolvidas com R Shiny com especialistas da Appsilon.
+
+### Sobre o curso
+
+**Data**: 18 de novembro de 2024, 10:00 AM - 1:00 PM (GMT-3)
+
+**Modalidade**: Online
+
+**Inscrição**: [https://www.eventbrite.cl/e/optimizando-shiny-consejos-y-trucos-de-rendimiento-tickets-1045595392967](https://www.eventbrite.cl/e/optimizando-shiny-consejos-y-trucos-de-rendimiento-tickets-1045595392967)
+
+**Idioma:** Espanhol
+
+Neste workshop, exploraremos como otimizar o desempenho de aplicações desenvolvidas com R Shiny, desde melhorar a velocidade de resposta até a escalabilidade.
+
+Por meio de exemplos práticos e técnicas avançadas, identificaremos os gargalos mais comuns, para minimizar tempos de carregamento e gerenciar grandes volumes de dados de forma eficiente.
+
+Também abordaremos as melhores práticas para otimizar tanto o código quanto a estrutura da aplicação, incluindo o uso adequado de reatividade, carga de dados e comunicação com o navegador.
+
+Ao final do workshop, você terá as ferramentas necessárias para transformar suas aplicações Shiny, tornando-as mais rápidas, leves e prontas para oferecer uma melhor experiência ao usuário.
+
+Este workshop é direcionado a desenvolvedores e analistas que buscam melhorar o desempenho de suas aplicações Shiny, com um foco prático e orientado a resultados.
+
+### Requisitos
+
+R 4.1.0 ou superior, RStudio instalado. 8GB RAM (desejável), internet estável (desejável). Git instalado (desejável). Alternativamente, ter uma conta no <posit.cloud> .
+
+### Tutor
+
+[**Samuel Calderon**](https://www.linkedin.com/in/samuelcalderon/) atualmente trabalha como desenvolvedor R Shiny na Appsilon. Anteriormente, atuou no setor público peruano, participando em iniciativas de coleta, análise e sistematização de informações para melhorar a qualidade dos serviços prestados à população em temas como combate ao tráfico ilícito de drogas, melhoria da qualidade da educação superior universitária, combate à corrupção e medição da pobreza monetária.
+
+## Deploy Contínuo com R, GitHub e Quarto: Implementando Boas Práticas
+
+#### Aprenda como implementar um fluxo de trabalho de deploy contínuo para modelos de dados em R usando GitHub e Quarto.
+
+### Sobre o curso
+
+**Data**: 18 de novembro de 2024, 06:00 PM - 08:00 PM (GMT-3)
+
+**Modalidade**: Online
+
+**Inscrição**: [https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747](https://www.eventbrite.cl/e/despliegue-continuo-con-r-github-y-quarto-implementando-buenas-practicas-tickets-1046364954747)
+
+**Idioma:** Espanhol
+
+Este workshop tem como objetivo ensinar os participantes a implementar um fluxo de trabalho de Deploy contínuo para modelos de dados em R usando GitHub e Quarto. Ao final da sessão, os participantes serão capazes de:
+
+  - Configurar um ambiente de R no GitHub Actions para automatizar a execução de scripts. 
+
+  - Instalar e gerenciar dependências de R de maneira eficiente. Gerar e renderizar relatórios em Quarto, facilitando a apresentação de resultados. 
+  
+  - Integrar boas práticas de DevOps em seus fluxos de trabalho para melhorar a colaboração e a qualidade do código.
+
+A relevância deste workshop está na crescente necessidade de automação na análise e ciência de dados. Aprender a utilizar GitHub Actions e Quarto não só otimiza o trabalho em equipe, como também permite que os participantes implementem soluções robustas e escaláveis para a avaliação de métricas e análise de resultados. Esse conhecimento é fundamental para quem busca melhorar a reprodutibilidade de seus projetos e a eficiência de seus processos de análise.
+
+O workshop é voltado para profissionais e estudantes de áreas como ciência de dados, estatística, análise de dados e programação em R. Também é relevante para pesquisadores e desenvolvedores interessados em otimizar seus fluxos de trabalho por meio da automação e da implementação de boas práticas de DevOps.
+
+Os participantes devem ter conhecimentos básicos de programação em R e familiaridade com Git e GitHub. Também é recomendável que tenham conhecimento básico na geração de documentos em R, seja usando Rmarkdown ou Quarto.
+
+### Requisitos
+
+Para participar de forma ideal do workshop de Deplot Contínuo com R, GitHub e Quarto, os participantes devem contar com um laptop (Windows, macOS ou Linux) e ter o software necessário instalado, incluindo R, RStudio, Git e Quarto. Além disso, é importante ter acesso à internet e uma conta no GitHub previamente criada. Recomenda-se garantir acesso aos arquivos de exemplo que serão usados durante o workshop. Embora não seja estritamente necessário, ter conhecimentos básicos de R e Git, bem como familiaridade com Markdown, será útil para aproveitar ao máximo a experiência.
+
+### Tutor
+
+**Sebastián Egaña Santibáñez** é Mestre em Finanças pela Universidade do Chile, Licenciado em Filosofia pela Universidade Alberto Hurtado e Engenheiro Comercial pela Universidade Santo Tomás, Chile.
+
+É um profissional destacado em Ciência de Dados, com sólida trajetória como docente universitário e experiência em assessoria especializada. Contribuiu significativamente para a formação acadêmica e aplicação prática da análise de dados, oferecendo soluções inovadoras e estratégicas em diversos contextos.
+
+## Desenvolvimento de Pacotes em R: Da Ideia à Implementação
+
+#### Aprenda como desenvolver pacotes em R, implementá-los e distribuí-los.
+
+### Sobre o curso
+
+**Data** 19 de novembro de 2024, 10:00 AM - 1:00 PM (GMT-3)
+
+**Modalidade**: Online
+
+
+**Inscrição**: [Desenvolvimento de pacotes em R](https://www.eventbrite.cl/e/desarrollo-de-paquetes-en-r-desde-la-idea-hasta-la-implementacion-tickets-10463618454477)
+
+**Idioma:** Espanhol
+
+Este workshop oferece um guia abrangente sobre o desenvolvimento de pacotes em R, cobrindo todo o processo, desde a concepção da ideia até a implementação técnica e a distribuição em plataformas como o CRAN.
+
+O objetivo é fornecer aos participantes uma compreensão clara e prática de como criar um pacote em R que atenda aos padrões de qualidade e possa ser utilizado pela comunidade científica e de desenvolvimento.
+
+Durante a apresentação, exploraremos as melhores práticas para design, documentação, testes e publicação de pacotes. Serão oferecidos exemplos e demonstrações ao vivo para que os participantes adquiram habilidades práticas aplicáveis aos seus próprios projetos.
+
+O tutorial é focado em usuários de R, desenvolvedores de R, pesquisadores, cientistas de dados e profissionais de outras disciplinas que queiram transformar seu conhecimento, experiências e dados em um pacote de R para publicação no CRAN.
+
+
+### Requisitos
+
+PC ou Laptop com R, RStudio e RTools (windows) instalados, pacotes: devtools, available, usethis, testthat.
+
+### Tutor
+
+**Renzo Cáceres Rossi** é um especialista em R, tendo participado do Latin R 2022 com a palestra Introdução ao RMarkdown. Ele ministrou tutoriais e conferências em diversas universidades na América Latina através do IEEE.
+
+É criador de conteúdo sobre ciência de dados em seu canal do [YouTube](https://www.youtube.com/c/RenzoCaceresRossi).
+

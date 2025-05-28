@@ -1,0 +1,80 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+  # schedule:
+  #   # * is a special character in YAML so you have to quote this string
+  #   - cron:  '5 0 * * *'    
+
+name: Update website
+
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      TOKEN_JSON: ${{ secrets.TOKEN_JSON }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # add software dependencies here
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::rmarkdown
+            any::dplyr
+            any::purrr
+            any::tibble
+            any::tidyr
+            any::janitor
+            any::tidyselect
+            any::yaml
+            any::glue
+            any::bslib
+            any::here
+            any::readr
+            any::googlesheets4
+            any::usethis          
+            any::toastui
+            any::reactable
+
+      - name: Execute Script
+        run: |
+          Rscript "data-raw/actions-update-from-google-sheets.R"      
+          
+
+      - name: render
+        run: |
+          quarto render --profile es        
+          quarto render --profile pt
+          quarto render --profile en
+      
+
+      - name: Publish to GitHub Pages (and render)
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          render: false
+          target: gh-pages
+          path: "docs/"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+
+
+      - name: Commit results
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "Update data" || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
+          

@@ -1,0 +1,180 @@
+/*-- scss:defaults --*/
+
+// importing fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap');
+
+
+$font-family-sans-serif: 'Open Sans', Tahoma, sans-serif !default;
+
+$primary: #4c3ceb !default;
+
+$font-size-root: 20px !important;
+
+$bslib-grid-height: auto !important;
+
+
+/*-- scss:rules --*/
+
+h1, h2, h3, h4, h5 {
+    font-family: "Raleway", "Tahoma", sans-serif !important;
+}
+
+
+
+
+.bslib-grid {
+  height: auto !important;
+}
+
+.html-fill-container{
+  display: block !important;
+}
+
+
+
+/* Banner */
+#banner h1 {
+  font-size: 4rem !important;
+  font-weight: 100;
+  line-height: 1.2;
+}
+
+#banner h2 {
+  font-size: 2rem !important;
+  font-weight: 100;
+  border: none;
+}
+
+#banner {
+  background: $primary; 
+  color: white; 
+  padding-left: 40px; 
+  padding-right: 40px; 
+  background: linear-gradient($primary, #73737355),url('./img/banner-img.jpg') !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient($primary, #73737355), url('./img/banner-img.jpg') !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#banner h3 {
+  font-size: 1.5rem !important;
+  border-bottom: 3px solid #fff;
+  line-height: 1.5;
+}
+
+
+/* about banner */
+
+.about_banner, .title{
+  padding-left: 1rem !important;
+  padding-top: 3rem !important;
+  padding-bottom: 1rem !important;
+  margin-bottom: 1rem !important;
+  background-color: $primary !important;
+  color: #fff !important;
+}
+
+.about_banner, h1{
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.sponsorsFooter {
+  width: 100%;
+  height: auto;
+  padding: 10px 0 10px;
+  margin-top: 0px;
+  z-index: 1 !important;
+  text-align: center !important;
+}
+
+.sponsorsFooter img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: auto;
+  vertical-align: middle;
+  margin: 1em;
+  justify-content: center;
+  align-items: center;
+
+  &.sponsor {
+    max-width: 350px;
+  }
+
+  &.supporter {
+    max-width: 175px;
+  }
+
+  &.community {
+    max-width: 150px;
+  }
+}
+
+.sponsorsFooter ul {
+  padding: 0;
+  margin: 15px 0 0 0;
+  list-style: none;
+  display: block;
+}
+
+.sponsorsFooter ul li {
+  margin: 5px 65px 0px;
+  display: inline-block;
+}
+
+.navbar-logo {
+  max-height: 50px;
+  
+}
+
+.quarto-title-banner {
+  padding-top: 2.5em;
+  padding-bottom: 0em;
+}
+
+.boxBorder {
+     border: 1px solid #585858;
+     padding: 10px;
+   }
+
+.card-header{
+  font-weight: bold;
+}
+
+
+.card-header-keynote{
+  background-color: #FDC08666;
+  font-weight: bold;
+}
+
+.cards-display{
+  display: grid;
+}
+
+.html-fill-container > .html-fill-item {
+  flex: inherit;
+}
+
+
+h2 {
+    font-size: 1.65rem;
+    text-align: center;
+}
+
+
+
+.card-header-sponsor {
+  background-color: rgb(231, 229, 255);
+  font-weight: bold;
+}
+
+.html-fill-container > .html-fill-item{
+  flex: inherit;
+}
+
+.quarto-listing {
+  padding-bottom: 1em;
+  padding-left: 8em;
+  padding-right: 8em;
+}

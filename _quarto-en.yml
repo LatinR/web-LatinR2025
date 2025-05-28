@@ -1,0 +1,74 @@
+lang: en
+
+project:
+  output-dir: docs/en
+
+website:
+  navbar:
+    left:
+      - href: ../pt/index.html
+        text: "PT"
+      - href: ./index.html
+        text: "**EN**"  
+      - href: ../index.html
+        text: "ES"    
+      - text: "Home"
+        href: /index.html
+      - text: About LatinR
+        menu:        
+          - text: "Organizing Team"
+            href: sobre/equipo/index.qmd        
+          - href: sobre/apoyo/sponsors.qmd
+          - href: sobre/coc/code-of-conduct.qmd
+          - href: sobre/ediciones-anteriores/previous-editions.qmd  
+      - text: Attend
+        menu: 
+          - text: "Call for Papers"
+            href: blog/en/2024-07-09-call-for-papers-2024.html
+          - text: "About Registration"
+            href: blog/en/2024-08-01-register.html
+          - text: "Registration"
+            href: https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl
+
+      # - text: LatinR 2024
+      #   menu: 
+      #     - text: "Location"
+      #       href: cronograma/lugar/location.qmd            
+      #     - text: "Tourist resources"
+      #       href: cronograma/recursos-turisticos/index-en.qmd
+      #     - text: "Scholarships"
+      #       href: blog/en/2023-08-18-scholarships-2023.html        
+      - text: Program
+        menu:
+          # - text: "Summarised program"
+          #   href: cronograma/programa/preliminar.qmd 
+          - text: "Program with Talks and Keynotes"
+            href: cronograma/programa/index.qmd
+          - text: "Keynote Speakers"
+            href: cronograma/conferencistas/keynotes.qmd
+          - text: "Workshops"
+            href: cronograma/tutoriales/workshops.qmd
+          - text: "R Dev Day"
+            href: cronograma/r-dev-day/rdevday-en.qmd
+          - text: "Traslaton rOpenSci"
+            href: cronograma/translaton/translaton-en.qmd            
+          # - text: "Regular Talks"
+          #   href: cronograma/programa/presentaciones.qmd 
+          # - text: "Posters"
+          #   href: cronograma/programa/posters.qmd             
+      - text: "News"
+        href: blog/en/index.html                 
+      - text: "Past events"
+        menu:
+        - text: "2023"
+          href: https://2023.latinr.org/
+        - text: "2022"
+          href: https://2022.latinr.org/
+        - text: "2021"
+          href: https://2021.latinr.org/
+        - text: "2020"
+          href: https://2020.latinr.org/
+        - text: "2019"
+          href: https://2019.latinr.org/
+        - text: "2018"
+          href: https://2018.latinr.org/
