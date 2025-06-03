@@ -1,5 +1,5 @@
 ---
-pagetitle: "LatinR 2024"
+pagetitle: "LatinR 2025"
 toc: false
 page-layout: custom
 listing:
