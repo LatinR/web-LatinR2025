@@ -54,6 +54,8 @@ listing:
 <br>
 </section>
 
+<center><a href='blog/es/2025-05-31-presentacion-trabajos-2025.html'><button type="button" class="btn btn-light btn-lg">Llamado a presentación de trabajos</button></a></center>
+
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programa</button></a></center> -->
 
@@ -99,6 +101,8 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 <center> {{< fa location-dot >}} Zoom </center>
 <br>
 </section>
+
+<center><a href='blog/es/2025-05-31-call-for-papers-2025.html'><button type="button" class="btn btn-light btn-lg">Call for Papers</button></a></center>
 
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Program</button></a></center> -->
@@ -146,6 +150,7 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 <br>
 </section>
 
+<center><a href='blog/es/2025-05-31-apresentacao-trabalhos-2025.html'><button type="button" class="btn btn-light btn-lg">Chamada de apresentação de trabalhos</button></a></center>
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programação</button></a></center> -->
 

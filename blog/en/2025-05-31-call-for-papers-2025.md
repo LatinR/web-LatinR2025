@@ -47,7 +47,7 @@ The suggested topics are the following:
 <br>
 
 <div class="boxBorder">
-Proposals can be submitted from July 16th via [Open Review](https://openreview.net/group?id=LATIN-R.com/2024/Conference).
+Proposals can be submitted from July 16th via [Open Review](https://openreview.net/group?id=LATIN-R.com/2025/Conference).
 Please note that you need to register on the platform to submit your work. The process of creating an account on OpenReview may take some time if you are not using an institutional email due to the personal account verification process. **We suggest not to leave account creation to the last minute**.
 </div>
 
