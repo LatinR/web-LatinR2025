@@ -90,9 +90,9 @@ Details for those who wish to propose online workshops for this edition of Latin
 
 **Start of work submission**: July 16, 2025
 
-**Deadline for proposal submission**: August 11, 2025
+**Deadline for proposal submission**: August ~~11~~ 26, 2025
 
-**Notification of evaluation results**: late September, 2025
+**Notification of evaluation results**: early October, 2025
 
 **Deadline for submission of accepted work videos**: late October, 2025
 

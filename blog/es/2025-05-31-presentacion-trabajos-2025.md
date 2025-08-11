@@ -137,9 +137,9 @@ En breve compartiremos los detalles para quienes quieran proponer talleres onlin
 
 **Inicio recepción de trabajos**: 16 de julio de 2025
 
-**Fecha límite para la recepción de propuestas**: 11 de agosto de 2025
+**Fecha límite para la recepción de propuestas**: ~~11~~ 25 de agosto de 2025
 
-**Notificación resultados evaluación**: fines de septiembre, 2025
+**Notificación resultados evaluación**: inicios de octubre, 2025
 
 **Fecha de recepcion de videos de trabajos aceptados**: fines de octubre de 2025
 

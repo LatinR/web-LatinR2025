@@ -89,15 +89,15 @@ Em breve compartilharemos os detalhes para quem quiser propor workshops online p
 
 #### Datas importantes
 
-**Início do recebimento dos trabalhos**: 16 de julho de 2024
+**Início do recebimento dos trabalhos**: 16 de julho de 2025
 
-**Data limite para envio de propostas**: 11 de agosto de 2024
+**Data limite para envio de propostas**: ~~11~~ 26 de agosto de 2025
 
-**Notificação dos resultados da avaliação**: final de setembro de 2024
+**Notificação dos resultados da avaliação**: outubro de 2025
 
-**Data máxima de envio dos vídeos dos trabalhos aceitos**: final de outubro de 2024
+**Data máxima de envio dos vídeos dos trabalhos aceitos**: final de outubro de 2025
 
-**Data da conferência**: na semana de 1 à 5 de dezembro, 2024.
+**Data da conferência**: na semana de 1 à 5 de dezembro, 2025.
 
 
 #### Apresentações e pôsteres de versões anteriores
