@@ -102,7 +102,7 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 <br>
 </section>
 
-<center><a href='blog/es/2025-05-31-call-for-papers-2025.html'><button type="button" class="btn btn-light btn-lg">Call for Papers</button></a></center>
+<center><a href='blog/en/2025-05-31-call-for-papers-2025.html'><button type="button" class="btn btn-light btn-lg">Call for Papers</button></a></center>
 
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Program</button></a></center> -->
@@ -150,7 +150,7 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 <br>
 </section>
 
-<center><a href='blog/es/2025-05-31-apresentacao-trabalhos-2025.html'><button type="button" class="btn btn-light btn-lg">Chamada de apresentação de trabalhos</button></a></center>
+<center><a href='blog/pt/2025-05-31-apresentacao-trabalhos-2025.html'><button type="button" class="btn btn-light btn-lg">Chamada de apresentação de trabalhos</button></a></center>
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programação</button></a></center> -->
 
