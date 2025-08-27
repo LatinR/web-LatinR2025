@@ -4,7 +4,7 @@ project:
     port: 4200  
 
 website:
-  title: "LatinR 2024"
+  title: "LatinR 2025"
   sidebar: false
   navbar:
     pinned: false
