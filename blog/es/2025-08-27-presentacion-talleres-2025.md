@@ -18,6 +18,7 @@ El envío de trabajos se podrá realizar a partir del mes de Agosto [a través d
 </div>
 
 <br>
+
 ### Requisitos para la presentación de propuestas
 
 * Todos los tutoriales deben contemplar instancias prácticas y de interacción.   
