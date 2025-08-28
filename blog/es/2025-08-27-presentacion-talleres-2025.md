@@ -60,7 +60,7 @@ El envío de trabajos se podrá realizar a partir del mes de Agosto [a través d
 En nuestro [canal de YouTube](https://youtube.com/latinr) es posible
 revisar los videos de las ediciones anteriores de LatinR. En nuestra
 cuenta en GitHub es posible acceder a los resúmenes y materiales de
-presentaciones y pósters de los años
+tutoriales de los años
 [2018](https://github.com/LatinR/presentaciones-LatinR2018),
 [2019](https://github.com/LatinR/presentaciones-LatinR2019),
 [2020](https://github.com/LatinR/presentaciones-LatinR2020),
