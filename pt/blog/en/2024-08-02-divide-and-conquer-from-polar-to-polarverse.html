@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,14 +69,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-08713b032d59303abbc804ce3ee2a798.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-8c6174884c351768202688fa25bf0c8f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -116,7 +117,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo light-content">
+    <img src="../../img/logo.png" alt="LatinR logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Procurar"></div>
@@ -271,7 +273,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </blockquote>
 <p>It was 2015, a Political Science master’s student had to process data to hand in his thesis and decided to take the opportunity to learn how to use R. To the long and winding road of the academic requirement was added an extra degree of difficulty: incorporating programming software from scratch, with a somewhat steep learning curve.</p>
 <p>Years later, <a href="https://github.com/TuQmano/evoteSALTA_UTDT">as I review scripts from the thesis code</a>, I smile to see long lines of code to recode variables with a structure like this:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#PARTY LABELS A GOBERNADOR</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># 0 VOTOS EN BLANCO</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1 WAYAR GOBERNADOR  (WALTER WAYAR)</span></span>
@@ -290,7 +292,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"AGRUPACION DEMOCRATICA COMUNAL"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">3</span></span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"AGRUPACION DEMOCRATICA TARTAGAL (ADETA)"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">3</span></span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"AGRUPACION FEDERALISTA POPULAR MOSCONI"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">1</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"AGRUPACION FEDERALISTA POPULAR TARTAGAL"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">3</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>SALTA<span class="sc">$</span>ListaF[ SALTA<span class="sc">$</span>Lista <span class="sc">==</span> <span class="st">"AGRUPACION FEDERALISTA POPULAR TARTAGAL"</span> <span class="sc">&amp;</span> SALTA<span class="sc">$</span>Year <span class="sc">==</span> <span class="dv">2011</span>] <span class="ot">&lt;-</span><span class="dv">3</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Looking at it in perspective (like my scripts) I can say that learning R was the <strong>best decision I made in my professional career.</strong></p>
 <p>R Since then it has become a fundamental tool in my daily life: As <a href="https://tuqmano.github.io/geo_utdt/">academic</a> in my work as a <a href="https://twitter.com/menta_arg">consultant and analyst</a>; in my role <a href="https://ropensci.org/es/blog/2022/11/23/r-universe-stars-1-es/">as a public servant</a>; in my spare time, <a href="https://twitter.com/TuQmano/status/1426882408574595072">as a hobby</a>; and in my current role, coordinating the Data team at <a href="https://fund.ar/">Fundar</a>, a think tank that studies and formulates public policies for the sustainable and inclusive development of Argentina.</p>
 <p>Of all the qualities that R has, the <strong>community</strong> was the determining factor in my journey with this programming language.</p>
@@ -415,13 +417,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
