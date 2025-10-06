@@ -1,57 +1,20 @@
 generar_info_keynotes <- function() {
   tibble::tibble(
-    name = "Julia Silge",
-    href = "https://juliasilge.com/",
-    img = "img/posts/julia.jpg",
-    info_es = "Julia Silge es científica de datos y
-    gerente de ingeniería en Posit PBC (anteriormente RStudio),
-    donde trabaja en el desarrollo de herramientas de código abierto para modelado y MLOps.
-    Es creadora de herramientas, autora,
-    oradora principal en conferencias internacionales y practicante en el mundo real,
-    con particular foco en el análisis de datos y el aprendizaje automático.
-    A Julia le gusta el análisis de texto,
-    hacer gráficos hermosos y comunicar temas técnicos a audiencias diversas.
-    Puedes encontrarla en línea en su blog (https://juliasilge.com/) 
-    y YouTube (https://www.youtube.com/juliasilge).",
-    info_pt = "Julia Silge é uma cientista de dados e
-    gerente de engenharia na Posit PBC (anteriormente RStudio),
-    onde trabalha em ferramentas de modelagem de código aberto e MLOps.
-    Ela é construtora de ferramentas, autora,
-    palestrante em conferências internacionais e praticante do mundo real,
-    focando em análise de dados e aprendizado de máquina.
-    Julia adora análise de texto, criar gráficos bonitos e
-    comunicar tópicos técnicos para públicos diversos.
-    Você pode encontrá-la online em seu [blog](https://juliasilge.com/) 
-    e [canal do YouTube](https://www.youtube.com/juliasilge).",
-    info_en = "Julia Silge is a data scientist and
-    engineering manager at Posit PBC (formerly RStudio),
-    where she works on open source modeling and MLOps tools.
-    She is a tool builder, an author, an international keynote speaker,
-    and a real-world practitioner focusing on data analysis and machine learning.
-    Julia loves text analysis, making beautiful charts,
-    and communicating about technical topics with diverse audiences.
-    You can find her online at her [blog](https://juliasilge.com/) 
-    e [canal do YouTube](https://www.youtube.com/juliasilge)."
+    name = "Heather Turner",
+    href = "https://warwick.ac.uk/go/heatherturner",
+    img = "img/posts/heatherT.jpg",
+    info_es = "Heather Turner es investigadora en ingeniería de software científico y profesora asociada de estadística en la Universidad de Warwick, Reino Unido. Participa activamente en la comunidad de R; en particular, forma parte de la junta directiva de la Fundación R (R Foundation) y preside tanto el Grupo de Trabajo de Contribución de R (R Contribution Working Group) como la iniciativa Forwards para grupos subrepresentados.",
+    info_en = "Heather Turner is a Research Software Engineering Fellow and Associate Professor in Statistics at the University of Warwick, UK. She is an active member of the R community, in particular, she is on the board of the R Foundation and chairs both the R Contribution Working Group and the Forwards taskforce for underrepresented groups.",
+    info_pt = "Heather Turner é pesquisadora em Engenharia de Software Científico e professora associada de Estatística na Universidade de Warwick, Reino Unido. Ela participa ativamente da comunidade R; em particular, faz parte da diretoria da Fundação R (R Foundation) e preside tanto o Grupo de Trabalho de Contribuição do R (R Contribution Working Group) quanto a iniciativa Forwards para grupos sub-representados."
   ) |> 
-    tibble::add_row(
-      name = "Will Landau",
-      href = "https://wlandau.github.io/",
-      img = "img/posts/will.jpg",
-      info_es = "Will Landau es estadístico y desarrollador
-      de software para la industria de las ciencias de la vida.
-      Se especializa en los aspectos computacionales de la estadística
-      bayesiana y en investigación reproducible. Es el creador
-      y mantenedor de los paquetes de R targets y crew.",
-      info_pt = "Will Landau é um estatístico e desenvolvedor de software na indústria.
-      Ele é especializado nos aspectos computacionais da estatística bayesiana
-      e na pesquisa reprodutível,
-      além de ser o criador e mantenedor dos pacotes de R targets e crew.",
-      info_en = "Will Landau is a statistician and software developer in the
-      life sciences industry. 
-      He is specialized in the computational aspects of Bayesian statistics
-      and reproducible research,
-      and he is the creator and maintainer of the targets and crew R packages."
-    )
+     tibble::add_row(
+       name = "Stephanie Zimmer",
+       href = "https://github.com/szimmer",
+       img = "img/posts/StephanieZ.jpg",
+       info_es = "Stephanie Zimmer es una estadística senior en RTI con una década de experiencia en muestreo y diseño de encuestas, ponderación y análisis de datos, y gestión de datos. Es una experta en  programación estadística, instructora certificada, y coautora del libro Exploring Complex Survey Data Analysis Using R.",
+       info_pt = "Stephanie Zimmer é uma estatística sênior na RTI com uma década de experiência em amostragem e desenho de pesquisas, ponderação e análise de dados, e gestão de dados. Ela é especialista em programação estatística, instrutora certificada, e coautora do livro Exploring Complex Survey Data Analysis Using R.",
+       info_en = "Stephanie Zimmer is a Senior Research Statistician at RTI with a decade of experience in survey sampling and design, survey weighting and analysis, and data management. Stephanie is an expert statistical programmer and instructor and she and co‑authored the book Exploring Complex Survey Data Analysis Using R."
+     )
 
 }
 
