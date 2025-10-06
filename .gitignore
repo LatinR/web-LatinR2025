@@ -7,3 +7,5 @@
 /.quarto/
 data-raw/token.json
 docs/*
+
+**/*.quarto_ipynb
