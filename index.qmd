@@ -38,6 +38,18 @@ listing:
 .html-fill-container > .html-fill-item {
   flex: inherit;
 }
+
+.img-fluid.card-img {
+  object-fit: cover;      
+  width: 80%;    
+  max-width: 80%; 
+  height: 500px;
+  max-height: 500px;    
+  border-radius: 8px;     
+  display: block; 
+  margin: 0 auto;  
+  margin-top: 1rem; 
+}
 ```
 
 
