@@ -38,6 +38,18 @@ listing:
 .html-fill-container > .html-fill-item {
   flex: inherit;
 }
+
+.img-fluid.card-img {
+  object-fit: cover;      
+  width: 80%;    
+  max-width: 80%; 
+  height: 500px;
+  max-height: 500px;    
+  border-radius: 8px;     
+  display: block; 
+  margin: 0 auto;  
+  margin-top: 1rem; 
+}
 ```
 
 
@@ -75,14 +87,14 @@ listing:
 :::
 :::
 
-<!--
+
 ## Conferencistas
--->
+
 
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
@@ -135,14 +147,14 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 
 
-<!--
+
 ## Keynotes
--->
+
 
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
@@ -186,14 +198,14 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 :::
 
 
-<!--
+
 ## Palestrantes principais
--->
+
 
 ```{r}
 #| results: asis
 #| echo: false
-#| eval: false
+#| eval: true
 source(here::here("R/generar-info-keynotes.R"))
 info_keynotes <- generar_info_keynotes()
 
