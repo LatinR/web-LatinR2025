@@ -54,15 +54,22 @@ listing:
 <br>
 </section>
 
-<center><a href='blog/es/2025-05-31-presentacion-trabajos-2025.html'><button type="button" class="btn btn-light btn-lg">Llamado a presentación de trabajos</button></a></center>
+<!-- <center><a href='blog/es/2025-05-31-presentacion-trabajos-2025.html'><button type="button" class="btn btn-light btn-lg">Llamado a presentación de trabajos</button></a></center> -->
 
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programa</button></a></center> -->
 
 <!--<center> <a href='https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscripción</button></a>
+
+<center>
 <a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Programa</button></a>
+</center>
 
 </center> -->
+
+<center>
+<a href='cronograma/conferencistas/index.qmd'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Conferencistas Principales</button></a>
+</center>
 
 <br> 
 :::
@@ -102,15 +109,24 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 <br>
 </section>
 
-<center><a href='blog/en/2025-05-31-call-for-papers-2025.html'><button type="button" class="btn btn-light btn-lg">Call for Papers</button></a></center>
+<!--
+<center><a href='blog/en/2025-05-31-call-for-papers-2025.html'><button type="button" class="btn btn-light btn-lg">Call for Papers</button></a></center> -->
 
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Program</button></a></center> -->
 
-<!-- <center> <a href='https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Register</button></a> -->
+<!-- <center> <a href='https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Register</button></a> 
 
-<!-- <a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Program</button></a>
-</center>  -->
+<center>
+<a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Program</button></a>
+</center> -->
+
+
+
+<center>
+<a href='cronograma/conferencistas/keynotes.qmd'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Keynotes</button></a>
+</center>
+
 
 <br>
 :::
@@ -150,14 +166,19 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 <br>
 </section>
 
-<center><a href='blog/pt/2025-05-31-apresentacao-trabalhos-2025.html'><button type="button" class="btn btn-light btn-lg">Chamada de apresentação de trabalhos</button></a></center>
+<!-- <center><a href='blog/pt/2025-05-31-apresentacao-trabalhos-2025.html'><button type="button" class="btn btn-light btn-lg">Chamada de apresentação de trabalhos</button></a></center> -->
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programação</button></a></center> -->
 
-<!-- <center> <a href='https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscrição</button></a> -->
+<!-- <center> <a href='https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscrição</button></a> 
 
-<!--<a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Programa</button></a> 
+<center>
+<a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Programa</button></a> 
 </center> -->
+
+<center>
+<a href='cronograma/conferencistas/palestras-convidadas.qmd'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Palestras convidadas</button></a>
+</center>
 
 
 <br>
