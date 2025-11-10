@@ -71,9 +71,9 @@ listing:
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programa</button></a></center> -->
 
-<!--<center> <a href='https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscripción</button></a>
+<center> <a href='https://www.eventbrite.com.ar/e/1939670499679' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscripción</button></a> </center>
 
-<center>
+<!-- <center>
 <a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Programa</button></a>
 </center>
 
@@ -127,9 +127,9 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Program</button></a></center> -->
 
-<!-- <center> <a href='https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Register</button></a> 
+<center> <a href='https://www.eventbrite.com.ar/e/1939670499679' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Register</button></a> </center>
 
-<center>
+<!--  <center>
 <a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Program</button></a>
 </center> -->
 
@@ -182,9 +182,9 @@ generar_cards_keynotes(info_keynotes, col_info = "", width_col = "20%")
 
 <!-- <center><a href='cronograma/programa/preliminar.qmd'><button type="button" class="btn btn-light btn-lg">Programação</button></a></center> -->
 
-<!-- <center> <a href='https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscrição</button></a> 
+<center> <a href='https://www.eventbrite.com.ar/e/1939670499679' target='_blank'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-user-plus"></i> Inscrição</button></a> </center>
 
-<center>
+<!-- <center>
 <a href='cronograma/programa/index.html'><button type="button" class="btn btn-light btn-lg"><i class="fa-solid fa-list"></i> Programa</button></a> 
 </center> -->
 

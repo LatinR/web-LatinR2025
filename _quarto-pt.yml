@@ -23,12 +23,12 @@ website:
           - href: sobre/ediciones-anteriores/edicoes-anteriores.qmd     
       - text: Participe
         menu: 
-          - text: "Chamada para submissão de trabalhos"
-            href: blog/pt/2025-05-31-apresentacao-trabalhos-2025.html
+          # - text: "Chamada para submissão de trabalhos"
+          #   href: blog/pt/2025-05-31-apresentacao-trabalhos-2025.html
          # - text: "Sobre a inscrição"
          #   href: blog/pt/2024-08-01-inscricao.qmd
-         # - text: "Inscrição"
-         #   href: https://www.eventbrite.cl/e/latinr-2024-conferencia-latinoamericana-sobre-uso-de-r-en-id-tickets-970622687587?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl
+         - text: "Inscrição"
+           href: https://www.eventbrite.com.ar/e/1939670499679?aff=oddtdtcreator
 
       # - text: LatinR 2025
       #   menu: 
@@ -46,8 +46,8 @@ website:
           #   href: cronograma/programa/index.qmd
            - text: "Palestras convidadas"
              href: cronograma/conferencistas/palestras-convidadas.qmd
-          # - text: "Workshops"
-          #   href: cronograma/tutoriales/workshops-pt.qmd
+           - text: "Workshops"
+             href: cronograma/tutoriales/workshops-pt.qmd
           # - text: "R Dev Day"
           #   href: cronograma/r-dev-day/rdevday-pt.qmd      
           # - text: "Traslaton rOpenSci"
