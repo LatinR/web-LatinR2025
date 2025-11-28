@@ -8,7 +8,7 @@ knitr:
 ---
 
 ::: {.content-visible when-profile="es"}
-Este es el programa de las charlas y conferencias principales. Para los talleres, por favor consulta la páginas de [tutoriales](../tutoriales/index.qmd).
+Este es el programa de las charlas y conferencias principales. Para los talleres, por favor consulta la página de [tutoriales](../tutoriales/index.qmd).
 :::
 
 ::: {.content-visible when-profile="pt"}
