@@ -14,8 +14,15 @@ generar_info_keynotes <- function() {
        info_es = "Stephanie Zimmer es una estadística senior en RTI con una década de experiencia en muestreo y diseño de encuestas, ponderación y análisis de datos, y gestión de datos. Es una experta en  programación estadística, instructora certificada, y coautora del libro Exploring Complex Survey Data Analysis Using R.",
        info_pt = "Stephanie Zimmer é uma estatística sênior na RTI com uma década de experiência em amostragem e desenho de pesquisas, ponderação e análise de dados, e gestão de dados. Ela é especialista em programação estatística, instrutora certificada, e coautora do livro Exploring Complex Survey Data Analysis Using R.",
        info_en = "Stephanie Zimmer is a Senior Research Statistician at RTI with a decade of experience in survey sampling and design, survey weighting and analysis, and data management. Stephanie is an expert statistical programmer and instructor and she and co‑authored the book Exploring Complex Survey Data Analysis Using R."
+     ) |> 
+     tibble::add_row(
+       name = "Equipo TRACE-LAC",
+       href = "https://medicina.javeriana.edu.co/trace-lac",
+       img = "img/posts/logo-tracelac.png",
+       info_es = "TRACE-LAC es un proyecto financiado por el International Development Research Centre, liderado por la Pontificia Universidad Javeriana y la Universidad de los Andes. Busca informar sobre la toma de decisiones en la respuesta a epidemias por enfermedades infecciosas en Latinoamérica y el Caribe. TRACE-LAC está articulado con las iniciativas TRACE y Epiverse lideradas por el London School of Hygiene and Tropical Medicine en colaboración con el Medical Research Council Unit en Gambia.",
+       info_pt = "TRACE-LAC é um projeto financiado pelo International Development Research Centre, liderado pela Pontifícia Universidade Javeriana e a Universidade dos Andes. Busca informar sobre a tomada de decisões na resposta a epidemias por doenças infecciosas na América Latina e Caribe. TRACE-LAC está articulado com as iniciativas TRACE e Epiverse lideradas pela London School of Hygiene and Tropical Medicine em colaboração com o Medical Research Council Unit na Gâmbia.",
+       info_en = "TRACE-LAC is a project funded by the International Development Research Centre, led by Pontificia Universidad Javeriana and Universidad de los Andes. It seeks to inform decision-making in the response to infectious disease epidemics in Latin America and the Caribbean. TRACE-LAC is linked with the TRACE and Epiverse initiatives led by the London School of Hygiene and Tropical Medicine in collaboration with the Medical Research Council Unit in The Gambia."
      )
-
 }
 
 generar_card_keynote <- function(tab, col_info = "info_es"){
