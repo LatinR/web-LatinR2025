@@ -103,6 +103,33 @@ chairs |>
 )
 ```
 
+
+::: {.content-visible when-profile="en"}
+### Organizer Committee
+:::
+
+::: {.content-visible when-profile="pt"}
+### Comitê Organizador
+:::
+
+
+::: {.content-visible when-profile="es"}
+### Comité Organizador
+:::
+
+```{r}
+organizers |>
+  dplyr::select(name_complete, titles, icons) |>
+  reactable::reactable(
+    columns = list(
+      name_complete = reactable::colDef(name = "Nombre"),
+      titles = reactable::colDef(name = "Afiliación institucional"),
+      icons = reactable::colDef(name = "Contacto", html = TRUE)
+  )
+)
+```
+
+
 ::: {.content-visible when-profile="en"}
 ### Scientific Committee
 :::
@@ -134,31 +161,6 @@ committe_list |>
 ```
 
 
-
-::: {.content-visible when-profile="en"}
-### Organizer Committee
-:::
-
-::: {.content-visible when-profile="pt"}
-### Comitê Organizador
-:::
-
-
-::: {.content-visible when-profile="es"}
-### Comité Organizador
-:::
-
-```{r}
-organizers |>
-  dplyr::select(name_complete, titles, icons) |>
-  reactable::reactable(
-    columns = list(
-      name_complete = reactable::colDef(name = "Nombre"),
-      titles = reactable::colDef(name = "Afiliación institucional"),
-      icons = reactable::colDef(name = "Contacto", html = TRUE)
-  )
-)
-```
 
 
 <!-- font awesome -->
