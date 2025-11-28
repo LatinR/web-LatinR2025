@@ -31,10 +31,11 @@ knitr:
 
 
 ```{r}
+googlesheets4::gs4_deauth()
 source(here::here("R/functions-team.R"))
-# update_info_team()
-# team <- get_info_team()
-# readr::write_rds(team, "prepared_team.rds")
+ update_info_team()
+ team <- get_info_team()
+ readr::write_rds(team, "prepared_team.rds")
 
 team <- readr::read_rds("prepared_team.rds")
 chairs <- team |> 
@@ -118,18 +119,18 @@ chairs |>
 
 
 ```{r}
-# committe_list <- get_info_committe()
-# 
-# committe_list |>
-#   dplyr::select(name_complete, titles, icons) |>
-#   reactable::reactable(
-#     columns = list(
-#       name_complete = reactable::colDef(name = "Nombre"), 
-#       titles = reactable::colDef(name = "Afiliación institucional"), 
-#       icons = reactable::colDef(name = "Contacto", html = TRUE)  
-#   ),
-#   pagination = FALSE
-# )
+committe_list <- get_info_committe()
+
+committe_list |>
+  dplyr::select(name_complete, titles, icons) |>
+  reactable::reactable(
+    columns = list(
+      name_complete = reactable::colDef(name = "Nombre"),
+      titles = reactable::colDef(name = "Afiliación institucional"),
+      icons = reactable::colDef(name = "Contacto", html = TRUE)
+  ),
+  pagination = FALSE
+)
 ```
 
 
@@ -148,22 +149,22 @@ chairs |>
 :::
 
 ```{r}
-# organizers |>
-#   dplyr::select(name_complete, titles, icons) |>
-#   reactable::reactable(
-#     columns = list(
-#       name_complete = reactable::colDef(name = "Nombre"), 
-#       titles = reactable::colDef(name = "Afiliación institucional"), 
-#       icons = reactable::colDef(name = "Contacto", html = TRUE)  
-#   )
-# )
+organizers |>
+  dplyr::select(name_complete, titles, icons) |>
+  reactable::reactable(
+    columns = list(
+      name_complete = reactable::colDef(name = "Nombre"),
+      titles = reactable::colDef(name = "Afiliación institucional"),
+      icons = reactable::colDef(name = "Contacto", html = TRUE)
+  )
+)
 ```
-
 
 
 <!-- font awesome -->
 
 ```{=html}
-<script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/2bfcca738b.js" crossorigin="anonymous"></script>
 ```
 <!-- font awesome -->
+

@@ -1,4 +1,5 @@
 
+
 generate_card <- function(person, class_group = "card-header-team") {
   bslib::card(
     full_screen = FALSE,
@@ -10,13 +11,13 @@ generate_card <- function(person, class_group = "card-header-team") {
 
 get_info_committe <- function(){
   # Run code below when we need to update
-  # url_sheets_comite <- "https://docs.google.com/spreadsheets/d/1gKo5WEZoxpqoE4NVrHUjcuZfs2y9gMHG-bt318NqREE/edit?gid=171919892#gid=171919892"
+  url_sheets_comite <- "https://docs.google.com/spreadsheets/d/1sX8eF2b1dN-P_KkH97WQFvSVV-SCkBQNYuotz8B7c_4/edit?gid=1251804780#gid=1251804780"
   
-  # sheets_comite_raw <-
-  #   googlesheets4::read_sheet(url_sheets_comite, "Respuestas de formulario 1")
+  sheets_comite_raw <-
+     googlesheets4::read_sheet(url_sheets_comite, "Respuestas de formulario 1")
   
-  # sheets_comite_raw |>
-  #   readr::write_rds(here::here("sobre/equipo/comite.rds"))
+  sheets_comite_raw |>
+     readr::write_rds(here::here("sobre/equipo/comite.rds"))
   
   sheets_comite_raw <- readr::read_rds(here::here("sobre/equipo/comite.rds"))
   
@@ -34,7 +35,8 @@ get_info_committe <- function(){
     dplyr::mutate(
       titles = dplyr::if_else(
         is.na(titles), "", titles
-      )
+      ),
+      titles = stringr::str_replace_all(titles, "\n|\\n", " | ")
     ) |> 
     generate_icons()
   
@@ -43,7 +45,7 @@ get_info_committe <- function(){
 
 update_info_team <- function(){
     # Run code below when we need to update
-  url_sheets_team <- "https://docs.google.com/spreadsheets/d/1gjdblLof74LgIOzxbm3WH8l7wI5IoJftdLF0os9B5EI/edit?usp=sharing"
+  url_sheets_team <- "https://docs.google.com/spreadsheets/d/1btvszmcXAC3X0uwK_mPx7nb5q82m0AnSyt1L63SgwnE/edit?gid=186104900#gid=186104900"
 
   sheets_team_raw <-
     googlesheets4::read_sheet(url_sheets_team)
@@ -51,7 +53,7 @@ update_info_team <- function(){
   sheets_team_raw |>
     readr::write_rds(here::here("sobre/equipo/team.rds"))
   
-  sheets_team_raw
+  #sheets_team_raw
 }
 
 get_info_team <- function(){
@@ -69,11 +71,11 @@ get_info_team <- function(){
     ) |> 
     dplyr::arrange(name_complete) |> 
     dplyr::select(-marca_temporal) |>
-    dplyr::mutate(
-      linkedin = fix_social_url(linkedin, "https://linkedin.com/in/"),
-      github = fix_social_url(github, "https://github.com/"),
-      twitter =  fix_social_url(twitter, "https://twitter.com/")
-    ) |> 
+    # dplyr::mutate(
+    #   linkedin = fix_social_url(linkedin, "https://linkedin.com/in/"),
+    #   github = fix_social_url(github, "https://github.com/"),
+    #   twitter =  fix_social_url(twitter, "https://twitter.com/")
+    # ) |> 
     tidyr::drop_na(name_complete) |> 
     dplyr::mutate(
       category = dplyr::case_when(
@@ -136,7 +138,14 @@ generate_icons <- function(tab){
         ),
         TRUE ~ ""
       ) ,
-      
+ 
+      icon_bluesky = dplyr::case_when(
+        !is.na(blue_sky) ~ glue::glue(
+          '<a href="{blue_sky}" target="_blank"><i class="fab fa-bluesky"></i></a>  '
+        ),
+        TRUE ~ ""
+      ) ,
+           
       icon_site = dplyr::case_when(
         !is.na(site) ~ glue::glue(
           '<a href="{site}" target="_blank"><i class="fas fa-home"></i></a>  '
@@ -151,7 +160,7 @@ generate_icons <- function(tab){
         TRUE ~ ""
       ) ,
         
-      icons = glue::glue("{icon_site}{icon_orcid}{icon_github}{icon_linkedin}{icon_mastodon}{icon_twitter}")
+      icons = glue::glue("{icon_site}{icon_orcid}{icon_github}{icon_linkedin}{icon_bluesky}{icon_mastodon}{icon_twitter}")
     )
   
   tab_with_icons
