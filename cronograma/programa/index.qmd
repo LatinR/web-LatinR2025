@@ -8,16 +8,16 @@ knitr:
 ---
 
 ::: {.content-visible when-profile="es"}
-En este programa, tenemos las charlas y conferencias principales. Para los talleres y eventos satélite, por favor consulta las páginas de: [Tutoriales](../tutoriales/index.qmd), [R Dev Day](../r-dev-day/index.qmd) y [Translaton rOpenSci](../translaton/index.qmd).
+Este es el programa de las charlas y conferencias principales. Para los talleres, por favor consulta la páginas de [tutoriales](../tutoriales/index.qmd).
 :::
 
 ::: {.content-visible when-profile="pt"}
-Neste programa, temos as palestras e keynotes. Para os workshops e eventos satélite, por favor, consulte as páginas de: [workshops](../tutoriales/workshops-pt.qmd), [R Dev Day](../r-dev-day/rdevday-pt.qmd) e [Translaton rOpenSci](../translaton/translaton-pt.qmd).
+Neste programa, temos as palestras e keynotes. Para os workshops, por favor, consulte a página de [workshops](../tutoriales/workshops-pt.qmd).
 :::
 
 ::: {.content-visible when-profile="en"}
-In this program, we have the talks and keynotes. For workshops and satellite events, please check the pages for: [workshops](../tutoriales/workshops.qmd), [R Dev Day](../r-dev-day/rdevday-en.qmd), and [Translaton rOpenSci](../translaton/translaton-en.qmd).
+This is the program of talks and keynotes. For workshops, please check the [tutorials](../tutoriales/workshops.qmd) page.
 :::
 
 
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vQ8ZFhXl7ht_pAEJHrbhYhGocNgM1RglNAx-D4JKsLn2AVkSHBmglGl_Qq4Tf3ok3353xaZ10WT8Qm9/pub?embedded=true" style="width: 100%; height: 100%;"></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vRkJA6JHVPQkm8n45CbdzlO4vUq6dkO62vSozofMwPV45EX6BkzKXcDQy-RDP__TNMwuK5ts5SCe9pF/pub?embedded=true" style="width: 100%; height: 100%;"></iframe>
