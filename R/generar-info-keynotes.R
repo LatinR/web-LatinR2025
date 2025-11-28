@@ -49,8 +49,8 @@ generar_cards_keynotes <-
       gap = "0.5cm",
       height = 300,
       generar_card_keynote(info_keynotes[1,], col_info = col_information),
-      generar_card_keynote(info_keynotes[2,],  col_info = col_information)#,
-      # generar_card_keynote(info_keynotes[3,],  col_info = col_information),
+      generar_card_keynote(info_keynotes[2,],  col_info = col_information),
+      generar_card_keynote(info_keynotes[3,],  col_info = col_information),
       # generar_card_keynote(info_keynotes[4,],  col_info = col_information)
     )
   }
